@@ -1,0 +1,38 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*.secret
+
+# Azure / Databricks credentials
+*credentials*
+*credential*
+*access_key*
+*secret*
+
+# Databricks
+.databricks/
+
+# Raw / large data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
